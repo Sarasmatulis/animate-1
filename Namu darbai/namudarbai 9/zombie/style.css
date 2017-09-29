@@ -1,0 +1,210 @@
+body,
+html {
+    text-align: center;
+    font-family: roboto;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.full{
+    
+    background-color: black;
+   width: 100%;
+    margin: auto;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     height: 100%; 
+   
+}
+.image{
+
+    height: 500px;
+    width:500px;
+    border:white 1px solid;
+     box-shadow: 0 0 10px white;
+    margin: auto;
+    margin-top: 10%;
+    position: relative;
+    
+}
+.head{
+   width: 120px;
+    height: 120px;
+    border-radius: 30px 30px 20px 70px;
+    background-color: forestgreen;
+    position:relative;
+    margin: 30% auto;
+    z-index: 1;
+   animation-name: galva;
+    animation-duration: 8s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+.head:after{
+    content:'';
+    width:20px;
+    height: 20px;
+    background-color: ;
+border:50px black solid;  
+    border-radius: 50%; 
+    top: -75%;
+    left:0%;
+    position:absolute;
+    z-index: 2;
+}
+
+
+.first, .second{
+    width:30px;
+    height:30px;
+    background-color: lightyellow;
+    border-radius: 50%;
+    position: absolute;
+    display: inline-block;
+    box-shadow: 5px 5px 6px brown;
+    inset: 0px 0px 0px #798d52;
+    z-index: 3;
+    
+    
+}
+.first, .second:after{
+    content: '';
+    
+    
+}
+
+.first{
+    top:35%;
+    left:24%;
+    box-shadow: 5px 5px 6px orange
+    inset: 0px 0px 0px #798d52;
+}
+.second{
+    top:35%;
+    left:58%;
+}
+.body{
+    width: 160px;
+    height: 160px;
+    border-radius: 30px 30px 20px 30px;
+    background-color: darkgreen;
+    position:absolute;
+    margin: 30% auto; 
+    top:20%;
+    left:37%;
+    z-index: 0;
+    
+}
+.body:after{
+    content: '';
+    width: 160px;
+    height: 50px;
+    border-radius: 0px 0px 20px 30px;
+    background-color: yellow;
+    position:absolute;
+    margin: 30% auto; 
+    top:40%;
+    left:0%;
+    z-index: 2;
+}
+.handleft, .handright{
+    content:'';
+    width:180px;
+    height: 50px;
+    background-color: darkgreen;
+    position: absolute;
+    border-radius: 30px 30px 30px 30px;
+}
+.handleft{
+    top:48%;
+    left:18%;
+    animation-name: handleft;
+    animation-duration: 5s;
+    display: inline-block;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
+.handright{
+    top:47%;
+    left:52%;
+    animation-duration: 5s;
+    display: inline-block;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    animation-name: handright;
+}
+.brain{
+    top:-3%;
+    left: 25%;
+    position:absolute;
+    width:65px;
+    height: 35px;
+    background-color:deeppink;
+    border-radius: 50%; 
+    border-bottom: 4px solid forestgreen;
+    position:absolute;
+    z-index: 3;
+}
+.mouth{
+    
+    width: 42px;
+    height: 26px;
+    background-color:darkgreen;
+    border-radius: 25% 25% 0 0 ;
+    top: 65%;
+    left: 39%;
+    
+    position: absolute;
+}
+.mouth:after{
+    content:'';
+     width: 35px;
+    height: 26px;
+    border-top: dashed 5px white;
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+
+.wave{
+    width:10px;
+    height:25px;
+    padding-left: 1px:
+    margin: auto 15px;
+    background-color: pink;
+    border-radius: 0 0 25% 25%;
+    animation-name:wave;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    display: inline-block;
+    animation-delay: 0.2s;
+    position: absolute;
+    top: 84%;
+    left:40%;
+}
+
+.to{
+    top: 85%;
+    left:44%;
+}
+.wave:nth-child(1){
+    animation-delay: 0.1s;
+    
+    
+}.wave:nth-child(2){
+    animation-delay: 0.9s;
+    
+}.wave:nth-child(3){
+    animation-delay: 1.3s;
+    
+}

@@ -1,0 +1,110 @@
+body {
+    text-align: center;
+    font-family: 'roboto';
+    background-color: azure;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+
+.landspace {
+    width:50%;
+    height:100%;
+    background-color: aliceblue;
+    position:relative;
+    
+   top: 0;
+    left:0;
+    margin: 10% auto;
+}
+
+
+
+
+
+.container .cont {
+        display: inline-block;
+        width: 60%;
+        margin: auto 1%;
+    }
+    
+    .h-line {
+        display: inline-block;
+        width: 100%;
+        background-color: gainsboro;
+        height: 20px;
+        border-radius: 2px;
+        
+    }
+.footer {
+        position: relative;
+        transition: 1s;
+    }
+    
+    .filler-one {
+        position: relative;
+        width: 0%;
+        background-color: black;
+        height: 20px;
+        transition: .5s;
+        border-radius: 2px;
+    }
+p{
+    text-align: left;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+    .footer:hover .filler-one {
+        width: 67%;
+        transition: .5s;
+    }
+
+.footer2:hover .filler-one {
+        width: 90%;
+        transition: .5s;
+    }
+
+.footer3:hover .filler-one {
+        width: 81%;
+        transition: .5s;
+    }
+
+
+
+
+
+.text-one {
+        position: absolute;
+        top: -36px;
+        right: -18px;
+        padding: 5px;
+        background-color: black;
+        color: white;
+        animation-name: example;
+        
+        animation-duration: 2s;
+    }
+    
+    .text-two {
+        position: absolute;
+        right: -8px;
+        width: 0;
+        height: 0;
+        margin-top: -8px;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+        border-top: 8px solid black;
+    }
+    
+   
+
+
+

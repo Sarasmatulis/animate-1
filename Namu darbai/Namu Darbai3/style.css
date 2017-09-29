@@ -1,0 +1,64 @@
+.asiah1{ 
+text-align: center;
+    margin: 10% 40% 20 40%;
+    font-family:  'Arial',serif;
+    
+}
+.box{
+    background-color: darkseagreen;
+    color:white;
+    margin:  30px 40% 25px 50px;
+    border: 1px solid #101010;
+    padding: 10px 15px ;
+}
+b {color: black;
+    
+}
+.text{
+    padding-bottom: 10px;
+}
+.firstbox{
+    
+    border: 1px solid black;
+    background-color: lightgray;
+    margin: 10px 6%;
+    align-content: center;
+}
+.australiah1{
+    
+    margin: 15px 40% 50px 40%;
+    
+}
+.austext{
+    margin: 15px 2% 50px 2%;
+    background-color: gray;
+    padding: 1px 4% 1px 1px;
+    font-family: serif;
+    color: white;
+}
+.yes{
+    color:red;
+}
+.no{
+    color:mediumblue;
+}
+.ausimg{
+    height;40%;
+    width:40%;
+    margin: 0 30% 0 30%;
+}
+.simpsonas {
+    border-radius: 50%;
+    margin: 70px 40% 70px 40%;
+    width:50%;
+    border: black 1px solid;
+    object-position: center;
+    
+}
+.simpsonh1{
+    margin:0 15% 0 30%;
+    margin:0 15% 0 30%;
+   text-align: center;
+   text-align: center;
+}
+

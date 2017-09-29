@@ -1,0 +1,103 @@
+*{
+    font-family: monospace;
+}
+body{
+}
+.content{
+    background-color: green;
+    border: 1px solid black;
+    padding: 50px;
+    width: 70%;
+}
+.content h1{
+    vertical-align: top;
+    color: white;
+    display: inline-block;
+    width:30%;
+    margin:0 1%;
+}
+.content p{
+    
+    line-height: 22px;
+    display: inline-block;
+    width:30%;
+    margin:0 1%;
+}
+.content h3{
+    vertical-align: top;
+    font-size: 20px;
+    color: #BADA55;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 30%;
+    margin:0 1%;
+}
+
+
+
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 50px;
+    border: 1px solid red;
+    background-color: #888;
+}
+.container .wrapper{
+    text-align: center;
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    margin: 20px 2%;
+    box-sizing: border-box;
+}
+.container  img{
+    width: 50%;
+}
+.container p{
+    text-align: left;
+    line-height: 22px;
+}
+.container h3{
+    text-align: left;
+    color: red;
+    font-size: 22px;
+}
+
+.services{
+    margin-top: 50px;
+    font-size: 0;
+}
+.services .left{
+    font-size: 16px;
+    vertical-align: top;
+    width: 45%;
+    padding-left: 5%;
+    display:inline-block;
+}
+.services .right{
+    width: 50%;
+    display:inline-block;
+}
+.services h2{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #333;
+}
+.services h3{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 36px;
+    color: red;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.services .bookmark{
+    margin-top: 30px;
+    border: 2px solid black;
+    width: 200px;
+    text-align: center;
+    line-height: 50px;
+}
+

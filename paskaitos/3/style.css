@@ -1,0 +1,45 @@
+body {
+    
+}
+
+
+.container{ 
+border:1px solid red;
+background: #888;
+    width:80%;
+    margin: 0 auto;
+}
+.container .wrapper{
+    display:inline-block;
+    width: 20%;
+    border: 1px solid blue;
+    margin: 20px 2%;
+    box-sizing:border-box;
+    vertical-align: top;
+    text-align: center;
+
+}
+.container img{
+    
+    width: 50%;
+    
+}
+.container h3{
+    font-size: 22px;
+    font-weight:100
+    text-align: left;
+    color:red;
+    font-size: 22;
+}
+
+.services{
+    font-size:0;
+    border:1px solid blue;
+}
+.services h2{
+    
+    
+}
+.services. bookmark{
+    
+}

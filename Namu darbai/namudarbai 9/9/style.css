@@ -1,0 +1,146 @@
+body,
+html {
+    text-align: center;
+    font-family: roboto;
+    max-width: 100%;
+    height: 100%;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    margin: auto;
+    max-width: 900px;
+
+}
+
+.wrapper {
+    width: 30%;
+    border-radius: 15px;
+    margin: 50px 1%;
+    box-shadow: 0px 0px 10px grey;
+    box-sizing: border-box;
+    display: inline-block;
+
+}
+
+h3 {
+    font-size: 24px;
+    color: orange;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    line-height: 42px;
+
+
+}
+
+.wrapper {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+
+.first li:after {
+    content: '-sale';
+    color: red;
+}
+
+.first li:before {
+    content: '$';
+    color: green;
+}
+.second li:before{
+    content:'';
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    display:inline-block;
+    margin: auto 5px auto 30px;
+    background-color: orange;
+    float:left;
+}
+.last li:before{
+    
+    content:'\f00c';
+    font-family: FontAwesome;
+    float: left;
+    margin-left: 20px;
+}
+.last li:after{
+    content:'';
+    height:20px;
+    width: 20px;
+    display: inline-block;
+    background-image: url(price.png);
+        background-size: cover;
+    float:right;
+    margin-right: 20px;
+}
+button{
+    height:80px;
+    width:240px;
+    border: 3px solid blue;
+    color: white;
+    background-color: red;
+    font-size: 30px;
+    border-radius: 8px;
+    cursor:pointer;
+    position: relative;
+}
+button:after{
+    content:"";
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0, .2);
+    display:inline-block;
+    position: absolute;
+    top:0; 
+    left:0;
+    border-radius: 8px;
+    transition: .4s;
+    transform:scaleX(0);
+    overflow: hidden;
+    
+}
+button:hover:after{
+    transform:scaleX(1)
+}
+.article{
+    margin: 50px;
+    
+}
+.article p{
+    margin: 20px auto;
+    line-height:20px;
+    font-size: 16px;
+    color:#444;
+    
+}
+
+.article p:first-child{
+    color:yellow;
+}
+.article p:last-child{
+    color:orange;
+}
+.article p:nth-child(3){
+    color:blue;
+}
+.article p:nth-child(even){
+    background-color: aqua;
+}
+.article p:nth-child(odd){
+    background-color: pink;
+}
+
+.article p:nth-child(3n+1){
+    font-size: 25px ;
+}
+.article p span:nth-child(3n+1){
+    font-size: 55px ;
+    font-weight: 900;
+}

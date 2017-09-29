@@ -1,0 +1,143 @@
+body {
+    text-align: center;
+    font-family: 'roboto';
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+
+.landspace {
+    width:50%;
+    height:18%;
+    background-color: aliceblue;
+    position:relative;
+    border: black solid 1px;
+   top: 0;
+    left:0;
+    margin: 10% auto;
+}
+
+
+.trikampis
+    
+{width: 0;
+	height: 0;
+	border-left: 13px solid transparent;
+	border-right: 13px solid transparent;
+	border-top: 13px solid greenyellow;
+    position: absolute;
+    top: 38%;
+        left:12%;
+}
+
+.kvadratas{
+    width: 40px;
+    height: 30px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 21%;
+    left: 11%;
+    padding-top: 1%;
+    text-align: center;
+    object-position: center;
+}
+
+
+
+
+
+
+.zalias{
+    width:90%;
+    height:25px;
+    background-color:greenyellow;
+    margin: 14% auto;
+}
+.juodas{
+    width: 10%;
+    height:25px;
+    background-color: black;  
+}
+
+.juodas:hover{
+     width: 90%;
+    transition: 0.5s;
+}
+
+
+
+.trikampis:hover{
+     left:440px;
+    transition: 0.5s;}
+
+
+.kvadratas:hover{
+     left:440px;
+    transition: 0.5s;}
+
+
+
+.container .cont {
+        display: inline-block;
+        width: 45%;
+        margin: auto 1%;
+    }
+    
+    .h-line {
+        display: inline-block;
+        width: 100%;
+        background-color: darkseagreen;
+        height: 20px;
+        border-radius: 2px;
+        box-shadow: 2px 2px 20px #666 inset;
+    }
+.footer {
+        position: relative;
+        transition: 1s;
+    }
+    
+    .filler-one {
+        position: relative;
+        width: 0%;
+        background-color: green;
+        height: 20px;
+        transition: .5s;
+        border-radius: 2px;
+    }
+    
+    .footer:hover .filler-one {
+        width: 90%;
+        transition: .5s;
+    }.text-one {
+        position: absolute;
+        top: -36px;
+        right: -18px;
+        padding: 5px;
+        background-color: black;
+        color: white;
+        animation-name: example;
+        
+        animation-duration: 2s;
+    }
+    
+    .text-two {
+        position: absolute;
+        right: -8px;
+        width: 0;
+        height: 0;
+        margin-top: -8px;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+        border-top: 8px solid black;
+    }
+    
+   
+
+
+

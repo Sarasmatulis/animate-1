@@ -1,0 +1,81 @@
+@keyframes varle{
+    
+    0%{
+        
+    }
+    25%{
+        left: 200px;
+        color:aqua;
+    }
+
+    75%{
+        color:red;
+        bottom:500px;
+        
+    }
+    
+    
+    100%{
+      
+       top:50%;
+        left: 50%;
+    }
+}
+
+@keyframes wave{
+    0%{}
+    50%{
+        transform:scaleY(0);
+        background-color: orangered;
+        
+    }
+    100%{
+        
+    }
+}
+
+@keyframes spinner{
+    0%{}
+    50%{}
+    100%{
+        transform:rotate(360deg) scale(1.5) ;}
+    
+}
+
+@keyframes square{
+    0%{}
+    15%{top: 100px;
+        left: 300px;
+        transform: rotate(0)
+    }
+    25%{ transform: rotate(360deg);
+        
+    }
+    40%{top:200px;
+    left:300px;
+    transform: rotate(360deg)
+    }
+    50%{ 
+        top:200px;
+    left:300px;
+    transform: rotate(720deg)
+    }
+    65%{top:200px;
+    left:200px;
+    transform: rotate(720deg)}
+    75%{
+        top:200px;
+    left:200px;
+    transform: rotate(1080deg)
+        
+    }
+    90%{
+        top:100px;
+        left:200px;
+        transform: rotate(1080deg);
+    }
+
+    100%{
+       transform: rotate(1440deg)
+    }
+}

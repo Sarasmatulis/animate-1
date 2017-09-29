@@ -1,0 +1,171 @@
+body {
+    text-align: center;
+    font-family: roboto;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    margin: auto;
+    max-width: 900px;
+}
+
+.landing-page {
+    height: 100vh;
+    background-image: url(img/eagle.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 50;
+}
+
+header {
+    background-color: rgba(255, 255, 255, .15);
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+header img {
+    float: left;
+    margin-left: 15px;
+    padding: 15px 0;
+    width: 70px;
+}
+
+header ul {
+    float: right;
+    padding: 2%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header li {
+    display: inline-block;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    line-height: 90px;
+    margin-right: 15px;
+}
+
+h1 {
+    font-size: 120px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    width: 14%;
+    height: 2px;
+    background-color: white;
+    
+}
+
+h2 {
+    font-size: 45px;
+    font-family: cursive;
+    color: snow;
+    padding: 2% 0;
+    font-family: 'Pacifico', cursive;
+}
+
+.intro {
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.other {
+    position: absolute;
+    width: 900px;
+    height: 100px;
+    
+    top: 90%;
+    left: 250px;
+    z-index: 20;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.fa {
+    font-size: 30px;
+    color: white;
+}
+
+.button{
+    
+    border: white solid 2px;
+    width: 120px;
+    height: 25px;
+    text-align: center;
+    margin-left: 41%;
+}
+
+.button p{ color: white;
+    padding-top: 3%;
+    font-weight: bold;
+}
+
+.box, .box1 {
+    display: inline-block;
+    
+    font-size: 14px;
+    width: 18%;
+    top:0;
+    height: 2%;
+    padding:2% 2% ;
+    border-top: white 2px solid;
+    color:whitesmoke;
+    border-top-width: medium;
+    font-weight: bold;
+    text-transform: uppercase;
+        text-align: left;
+    
+    
+}
+
+.box1{
+    position: relat;
+    z-index: 1;
+    width: 198px;
+    height: 41px;
+    border-top: white solid 3px;
+}
+
+.other2{
+    
+   position: absolute;
+    border-top: solid red 3px;
+    height: 39px;
+    width:90px;
+    top:0;
+    left: 0;
+    bottom: 50;
+    z-index: 900;
+    margin: 0 0;
+}
+
+b{
+    font-weight: 900;
+    font-size: 20px;
+    margin-right: 5px;
+}
+

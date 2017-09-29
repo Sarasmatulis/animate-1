@@ -1,0 +1,23 @@
+.content{
+    
+    background-color: green;
+    border: 1px solid black;
+}
+.content h1{
+    color: white;
+    display: inline-block; 
+    margin:0 1%;
+}
+.content p {
+    line-height: 22px;display: inline-block; 
+    margin:0 1%;
+    width: 30%;
+}
+.content h3{
+    font-size:20px;
+    width: 30%;
+     
+    margin:0 1%;
+    background-color: #BADA55;
+    width: 30%;
+}

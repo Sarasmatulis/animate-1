@@ -1,0 +1,62 @@
+@keyframes galva{
+    0%{ transform: rotate(0);
+        
+    }
+    25%{transform: rotate(30deg);
+        
+    }
+    50%{transform: rotate(0);
+        
+    }
+    75%{
+        transform: rotate(-30deg);
+    }
+
+    100%{
+        transform: rotate(0);
+    }
+}
+
+@keyframes handleft{
+    
+    0%{ 
+        
+    }
+    50%{
+        transform: rotate(60deg);
+    }
+
+
+    100%{
+        transform: rotate(0);
+    }
+}
+
+
+@keyframes handright{
+    
+    0%{ 
+        
+    }
+    50%{
+        transform: rotate(-60deg);
+    }
+
+
+    100%{
+        transform: rotate(0);
+    }
+}
+@keyframes wave{
+    0%{transform:scaleY(1);}
+    25%{
+        transform:scaleY(2);
+       
+        50%{
+            transform:scaleY(2);
+        }   
+    }
+    100%{transform:scaleY(1);
+        
+    }
+}
